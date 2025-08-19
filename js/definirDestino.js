@@ -7,3 +7,20 @@ export function definirDestino(origem){
     });
     return destinos;
 }
+
+
+export function definirOrigem(){
+    let origens = [];
+    routes.forEach((rota,i)=>{
+        if(i+1==routes.length){
+            if(rota.origem != routes[i-1].origem){
+                origens.push(rota.origem);
+            }
+        }else{
+            if(rota.origem != routes[i+1].origem){
+                origens.push(rota.origem);
+            }
+        }
+    });
+    return origens;
+}
