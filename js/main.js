@@ -1,4 +1,5 @@
 import { atualizarListaViagem,atualizarSelectOrigem,atualizarSelectDestino } from "./uiUpdater.js";
+import { litrosNecessarios } from "./combCalculos.js";
 
 //Variaveis que recebem os dois selects (origem,destino)
 const selectOrigem = document.querySelector('#selectOrigem');
@@ -21,3 +22,5 @@ document.addEventListener('DOMContentLoaded',()=>{
     atualizarSelectOrigem();
     
 });
+
+litrosNecessarios()
