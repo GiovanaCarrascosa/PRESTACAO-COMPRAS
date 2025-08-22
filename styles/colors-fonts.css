@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+  
+    /* Variáveis de cores */
+    --black: #000000;
+    --white: #ffffff;
+    --container-data: #80A8B6;
+    --container-results: #D1DCE0;
+    --main-title-and-hover-btns: #022A38;
+    --footer-and-btns: #245161;
+
+    /* Variáveis de fontes */
+    --jost-font: "Jost", sans-serif;
+    --jaldi-font: "Jaldi", sans-serif;
+
+    /* Variáveis dos tamanhos das fontes */
+    --font-size-larger: 32px;
+    --font-size-medium: 24px;
+    --font-size-smaller: 18px;
+    
+}
