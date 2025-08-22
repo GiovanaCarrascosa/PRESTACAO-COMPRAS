@@ -1,5 +1,4 @@
 import { atualizarListaViagem,atualizarSelectOrigem,atualizarSelectDestino } from "./uiUpdater.js";
-import { litrosNecessarios, custoTotal, totalViagem } from "./combCalculos.js";
 import { exibirTempoViagem } from "./dadosVeiculo.js";
 import { exibirContasVeiculos } from "./domElements.js";
 
@@ -24,10 +23,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     atualizarSelectOrigem();
 
     // chama as funções
-    litrosNecessarios();
     exibirTempoViagem();
-    custoTotal();
-    totalViagem();
     exibirContasVeiculos();
 });
 

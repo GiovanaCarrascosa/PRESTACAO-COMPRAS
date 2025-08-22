@@ -9,8 +9,6 @@
 
     <title>Prestação de Compras</title>
 
-    <script src="./js/main.js" defer></script>
-
     <!-- CSS -->
     <!-- variaveis de cores -->
     <link rel="stylesheet" href="./styles/global.css">
@@ -46,6 +44,15 @@
 
             </form>
 
+                <ul>
+        <li>Distância:</li>
+        <li>Pedágios:</li>
+        <li>Valor total pedágios:</li>
+        <li>Restaurantes:</li>
+        <li>Tempo estimado:</li>
+        <li>Pontos turísticos:</li>
+    </ul>
+
         </section>
 
 
@@ -66,6 +73,8 @@
             <label class="dados-veiculo-velocidade_label" for="velocidade-media">Velocidade Média (km/h):</label>
             <input class="dados-veiculo-velocidade_input" type="number" id="velocidade-media">
 
+            <button id="btn-calcular">Calcular</button>
+
         </form>
 
         </section>
@@ -77,24 +86,24 @@
 
                 <div class="resultados-combustivel_div">
                     <h3 class="resultados-combustivel_h3">Combustível</h3>
-                    <p class="resultados-combustivel-litros_p">Litros necessários:</p>
-                    <p class="resultados-combustivel-custo_p">Custo total:</p>
+                    <p class="resultados-combustivel-litros_p" id="resultado-litros"></p>
+                    <p class="resultados-combustivel-custo_p" id="resultado-custo"></p>
                 </div>
 
                 <div class="resultados-tempo-div">
                     <h3 class="resultados-tempo-viagem_h3">Tempo de viagem</h3>
-                    <p class="resultados-tempo-estimado_p">Tempo estimado:</p>
+                    <p class="resultados-tempo-estimado_p" id="resultado-tempo"></p>
                 </div>
 
                 <div class="resultados-custos_div">
                     <h3 class="resultados-custos_h3">Custos adicionais</h3>
-                    <p class="resultados-custos-pedagios_p">Pedágios:</p>
-                    <p class="resultados-custos-alimentacao_p">Alimentação:</p>
+                    <p class="resultados-custos-pedagios_p"></p>
+                    <p class="resultados-custos-alimentacao_p"></p>
                 </div>
 
                 <div class="resultados-totais_div">
                     <h3 class="resultados-custo-total_h3">Custo total</h3>
-                    <p class="resultados-custo-total-viagem_p">Total da viagem:</p>
+                    <p class="resultados-custo-total-viagem_p" id="resultado-total"></p>
                 </div>
 
         </section>

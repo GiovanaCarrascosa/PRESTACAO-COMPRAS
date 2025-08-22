@@ -1,13 +1,12 @@
 import { coletarDados } from "./coletarDados.js";
 
-// pegando os dados do html
-const selectOrigem = document.querySelector('#selectOrigem');
-const selectDestino = document.querySelector('#selectDestino');
-const btnCalcular = document.querySelector('#btn-calcular');
-const resultadoTempo = document.querySelector('#tempo');
-
 // função para calcular os litros necessarios
 export function exibirTempoViagem() {
+    // pegando os dados do html
+    const selectOrigem = document.querySelector('#selectOrigem');
+    const selectDestino = document.querySelector('#selectDestino');
+    const btnCalcular = document.querySelector('#btn-calcular');
+    const resultadoTempo = document.querySelector('#resultado-tempo');
     // executa quando clicar no botão de calcular
     btnCalcular.addEventListener('click', (event) => {
         event.preventDefault();
