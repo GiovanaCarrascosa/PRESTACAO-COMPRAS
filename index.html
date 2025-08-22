@@ -8,40 +8,100 @@
     <script type="module" src="./js/main.js" defer></script>
 
     <title>Prestação de Compras</title>
+
+    <script src="./js/main.js" defer></script>
+
+    <!-- CSS -->
+    <!-- variaveis de cores -->
+    <link rel="stylesheet" href="./styles/global.css">
+
+    <!-- reset da interface -->
+    <link rel="stylesheet" href="./styles/reset.css">
+
+    <!-- css geral -->
+     <link rel="stylesheet" href="./styles/style.css">
+
 </head>
 
 <body>
-    <select id="selectOrigem">
-        <option value=""></option>
-    </select>
 
-    <select id="selectDestino" disabled>
-        <option value=""></option>
-    </select>
+    <main>
+
+        <!-- Form dos dados da viagem -->
+        <section class="dados-viagem">
+
+            <h2 class="dados-viagem_titulo">Dados da viagem</h2>
+
+            <form class="dados-viagem_form">
+
+            <label class="dados-viagem-origem" for="selectOrigem">Origem:</label>
+            <select class="dados-viagem-origem_select" id="selectOrigem" name="origem-viagem">
+                <option value="">Selecionar matriz</option>
+            </select>
+
+            <label class="dados-viagem-destino" for="selectDestino">Destino:</label>
+            <select class="dados-viagem-destino_select" id="selectDestino" name="destino-viagem">
+                <option value="">Selecionar destino</option>
+            </select>
+
+            </form>
+
+        </section>
 
 
-    <ul>
-        <li>Distância:</li>
-        <li>Pedágios:</li>
-        <li>Valor total pedágios:</li>
-        <li>Restaurantes:</li>
-        <li>Tempo estimado:</li>
-        <li>Pontos turísticos:</li>
-    </ul>
 
-    <form>
-        <input type="number" id="consumo">
-        <input type="number" id="preco">
-        <button id="btn-calcular">calcular</button>
-    </form>
+        <!-- Form dos dados do veiculo   -->
+        <section class="dados-veiculo">
 
-    <p id="resultado"></p>
+        <h2 class="dados-veiculo-titulo">Dados do veículo</h2>
 
-    <p id="tempo"></p>
+        <form class="dados-veiculo_form">
 
-    <p id="total"></p>
+            <label class="dados-veiculo-consumo_label" for="consumo">Consumo do veículo (km/l):</label>
+            <input class="dados-veiculo-consumo_input" type="number" id="consumo">
 
-    <p id="total-viagem"></p>
+            <label class="dados-veiculo-combustivel_label" for="preco-combustivel">Preço do combustível (R$ / l):</label>
+            <input class="dados-veiculo-combustivel_input" type="number" id="preco-combustivel">
+
+            <label class="dados-veiculo-velocidade_label" for="velocidade-media">Velocidade Média (km/h):</label>
+            <input class="dados-veiculo-velocidade_input" type="number" id="velocidade-media">
+
+        </form>
+
+        </section>
+
+        <!-- Container dos resultados  -->
+        <section class="resultados_section">
+
+                <h2 class="resultados_titulo">Resultados</h2>
+
+                <div class="resultados-combustivel_div">
+                    <h3 class="resultados-combustivel_h3">Combustível</h3>
+                    <p class="resultados-combustivel-litros_p">Litros necessários:</p>
+                    <p class="resultados-combustivel-custo_p">Custo total:</p>
+                </div>
+
+                <div class="resultados-tempo-div">
+                    <h3 class="resultados-tempo-viagem_h3">Tempo de viagem</h3>
+                    <p class="resultados-tempo-estimado_p">Tempo estimado:</p>
+                </div>
+
+                <div class="resultados-custos_div">
+                    <h3 class="resultados-custos_h3">Custos adicionais</h3>
+                    <p class="resultados-custos-pedagios_p">Pedágios:</p>
+                    <p class="resultados-custos-alimentacao_p">Alimentação:</p>
+                </div>
+
+                <div class="resultados-totais_div">
+                    <h3 class="resultados-custo-total_h3">Custo total</h3>
+                    <p class="resultados-custo-total-viagem_p">Total da viagem:</p>
+                </div>
+
+        </section>
+
+    </main>
+
+
 </body>
 
 </html>
