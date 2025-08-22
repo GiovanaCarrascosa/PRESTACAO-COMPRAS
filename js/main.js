@@ -1,6 +1,7 @@
 import { atualizarListaViagem,atualizarSelectOrigem,atualizarSelectDestino } from "./uiUpdater.js";
 import { exibirTempoViagem } from "./dadosVeiculo.js";
 import { exibirContasVeiculos } from "./domElements.js";
+import { atualizarFooter } from "./dataFooter.js";
 
 //Variaveis que recebem os dois selects (origem,destino)
 const selectOrigem = document.querySelector('#selectOrigem');
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     // chama as funções
     exibirTempoViagem();
     exibirContasVeiculos();
+    atualizarFooter();
 });
 
 
