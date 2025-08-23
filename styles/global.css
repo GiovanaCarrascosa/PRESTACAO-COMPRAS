@@ -166,6 +166,17 @@
 
 }
 
+.lista-dados-viagem_ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.lista-dados-viagem_card{
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    
+}
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* CONTAINER DE DADOS DO VEÍCULO */
