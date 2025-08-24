@@ -11,7 +11,6 @@ const btnCalcular = document.querySelector('#btn-calcular');
 const resultadoLitros = document.querySelector('#resultado-litros');
 const resultadoCustoTotal = document.querySelector('#resultado-custo');
 const resultadoTotalViagem = document.querySelector('#resultado-total');
-const resultadoTitulo = document.querySelector('#resultados-titulo');
 
 // executa quando clicar no botão de calcular
 
