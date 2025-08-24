@@ -2,10 +2,12 @@ import { atualizarListaViagem,atualizarSelectOrigem,atualizarSelectDestino } fro
 import { exibirTempoViagem } from "./dadosVeiculo.js";
 import { exibirContasVeiculos } from "./domElements.js";
 import { atualizarFooter } from "./dataFooter.js";
+import { limparFormulario } from "./limparDados.js";
 
 //Variaveis que recebem os dois selects (origem,destino)
 const selectOrigem = document.querySelector('#selectOrigem');
 const selectDestino = document.querySelector('#selectDestino');
+const btnLimpar = document.querySelector('.btn-limpar');
 
 //Roda quando a página carregar
 document.addEventListener('DOMContentLoaded',()=>{
@@ -18,6 +20,13 @@ document.addEventListener('DOMContentLoaded',()=>{
     //Quando selecionar um destino atualiza dinamicamente os dados da rota
     selectDestino.addEventListener('input', ()=>{
         atualizarListaViagem(selectOrigem.value,selectDestino.value);
+    });
+
+    btnLimpar.addEventListener('click', (e) =>{
+
+        e.preventDefault();
+        limparFormulario('.dados-veiculo_form');
+
     });
 
     //Inicia o select de origem
