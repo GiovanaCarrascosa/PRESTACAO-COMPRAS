@@ -9,6 +9,7 @@ export function exibirTempoViagem() {
     const precoInput = document.querySelector('#preco-combustivel');
     const btnCalcular = document.querySelector('#btn-calcular');
     const resultadoTempo = document.querySelector('#resultado-tempo');
+
     // executa quando clicar no botão de calcular
     btnCalcular.addEventListener('click', (event) => {
         event.preventDefault();
@@ -21,13 +22,10 @@ export function exibirTempoViagem() {
 
         if (rotaSelecionada) {
 
-
         const consumo = parseFloat(consumoInput.value);
         const preco = parseFloat(precoInput.value);
 
         if (consumo > 0 && preco > 0) {
-
-       
 
             // Exibe o resultado diretamente na tela
             resultadoTempo.innerHTML = `<p>Tempo estimado: ${Math.floor(rotaSelecionada.tempoEstimado)}h ${Math.round((rotaSelecionada.tempoEstimado-Math.floor(rotaSelecionada.tempoEstimado))*60)}min</p>`;
