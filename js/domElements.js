@@ -11,6 +11,7 @@ const btnCalcular = document.querySelector('#btn-calcular');
 const resultadoLitros = document.querySelector('#resultado-litros');
 const resultadoCustoTotal = document.querySelector('#resultado-custo');
 const resultadoTotalViagem = document.querySelector('#resultado-total');
+const resultadoTitulo = document.querySelector('#resultados-titulo');
 
 // executa quando clicar no botão de calcular
 
@@ -54,19 +55,19 @@ export function exibirContasVeiculos() {
                 // exibe o resultado na tela
 
                 resultadoLitros.innerHTML = `<p>Litros necessários: ${litros.toFixed(2)}</p>`;
-                resultadoCustoTotal.innerHTML = `<p>Custo total: ${custo.toFixed(2)}</p>`
-                resultadoTotalViagem.innerHTML = `<p>Total da viagem: ${viagemTotal.toFixed(2)}</p>`
+                resultadoCustoTotal.innerHTML = `<p>Custo total: R$ ${custo.toFixed(2)}</p>`
+                resultadoTotalViagem.innerHTML = `<p>Total da viagem: R$ ${viagemTotal.toFixed(2)}</p>`
             }
 
             // mensagens de erro
 
             else {
-                resultadoLitros.innerHTML = "Insira um valor maior que 0.";
+                resultadoTitulo.innerHTML = "Resultados: Insira um valor maior que 0.";
             }
         }
 
         else {
-            resultadoLitros.innerHTML = "Selecione uma rota de origem e um destino.";
+            resultadoTitulo.innerHTML = "Resultados: Selecione uma rota de origem e um destino.";
         }
 
     });

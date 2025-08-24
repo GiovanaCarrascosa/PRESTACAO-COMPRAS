@@ -10,7 +10,7 @@ export function exibirTempoViagem() {
     // executa quando clicar no botão de calcular
     btnCalcular.addEventListener('click', (event) => {
         event.preventDefault();
-
+        if (consumo > 0 && preco > 0) {
         // pega a origem e o destino
         const origem = selectOrigem.value;
         const destino = selectDestino.value;
@@ -21,7 +21,7 @@ export function exibirTempoViagem() {
                 // Exibe o resultado diretamente na tela
                 resultadoTempo.innerHTML = `<p>Tempo estimado: ${Math.floor(rotaSelecionada.tempoEstimado)}h ${Math.round((rotaSelecionada.tempoEstimado-Math.floor(rotaSelecionada.tempoEstimado))*60)}min</p>`;
             }
-
+        }
     });
 }
 
