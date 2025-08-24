@@ -103,10 +103,12 @@
     position: absolute;
     left: 50px;
     top: 120px;
+    padding: 15px;
 
     color: var(--black);
     font-family: var(--jaldi-font);
     font-size: var(--font-size-smaller);
+    
 }
 
 .dados-viagem-destino{
@@ -119,6 +121,7 @@
     position: absolute;
     left: 50px;
     top: 200px;
+    
 
 }
 
@@ -133,6 +136,7 @@
     position: absolute;
     left: 50px;
     top: 240px;
+    padding: 15px;
 
     color: var(--black);
     font-family: var(--jaldi-font);
@@ -163,6 +167,19 @@
 .lista-dados-viagem:hover{
 
     transform: scale(1.02);
+
+}
+
+.lista-dados-viagem__ul{
+
+    position: relative;
+    left: 50px;
+    top: 25px;
+
+    list-style: none;
+    color: var(--black);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-medium);
 
 }
 
@@ -225,6 +242,7 @@
     position: absolute;
     left: 50px;
     top: 120px;
+    padding: 15px;
 
     color: var(--black);
     font-family: var(--jaldi-font);
@@ -255,6 +273,7 @@
     position: absolute;
     left: 50px;
     top: 240px;
+    padding: 15px;
 
     color: var(--black);
     font-family: var(--jaldi-font);
@@ -285,6 +304,7 @@
     position: absolute;
     left: 50px;
     top: 360px;
+    padding: 15px;
 
     color: var(--black);
     font-family: var(--jaldi-font);
@@ -337,20 +357,164 @@ button:active{
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ULTIMO CONTAINER DE RESULTADOS*/
+/* container geral */
 .resultados_section{
 
     width: 1000px;
     height: 300px;
     background-color: var(--container-results);
     border-radius: 20px;
+    padding: 50px;
+    padding-top: 90px;
    
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    
     position: relative;
     
 }
+
+/* titulo */
+.resultados_titulo{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-larger);
+
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+/* div do combustível */
+.resultados-combustivel_div{
+
+    width: 200px;
+    height: 165px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+}
+
+.resultados-combustivel_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+
+}
+
+.resultados-combustivel-litros_p, .resultados-combustivel-custo_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+
+}
+
+/* div do tempo */
+.resultados-tempo-div{
+
+    width: 220px;
+    height: 165px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+}
+
+.resultados-tempo-viagem_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+
+}
+
+.resultados-tempo-estimado_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+
+}
+
+/* div do custos */
+.resultados-custos_div{
+
+    width: 220px;
+    height: 165px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+}
+
+.resultados-custos_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+
+}
+
+.resultados-custos-pedagios_p, .resultados-custos-alimentacao_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+
+}
+
+/* div dos totais */
+.resultados-totais_div{
+
+    width: 220px;
+    height: 165px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+}
+
+.resultados-custo-total_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+
+}
+
+.resultados-custo-total-viagem_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+
+}
+
 
 /* ESPAÇAMENTO ENTRE OS CONTAINERS */
 .dados-viagem,
