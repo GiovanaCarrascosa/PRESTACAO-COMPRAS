@@ -62,12 +62,12 @@ export function exibirContasVeiculos() {
             // mensagens de erro
 
             else {
-                resultadoTitulo.innerHTML = "Resultados: Insira um valor maior que 0.";
+                Swal.fire("Insira um valor maior que 0.");
             }
         }
 
         else {
-            resultadoTitulo.innerHTML = "Resultados: Selecione uma rota de origem e um destino.";
+            Swal.fire("Selecione uma rota de origem e um destino.");
         }
 
     });

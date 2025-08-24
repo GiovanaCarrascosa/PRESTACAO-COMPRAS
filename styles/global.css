@@ -509,6 +509,12 @@ button:active{
     padding-bottom: 10px;
 }
 
+/* aplicando fonte no sweet alert */
+
+.swal2-popup{
+    font-family: var(--jost-font);
+}
+
 
 /* ESPAÇAMENTO ENTRE OS CONTAINERS */
 .dados-viagem,
