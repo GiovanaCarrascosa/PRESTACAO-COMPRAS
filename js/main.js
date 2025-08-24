@@ -3,6 +3,7 @@ import { exibirTempoViagem } from "./dadosVeiculo.js";
 import { exibirContasVeiculos } from "./domElements.js";
 import { atualizarFooter } from "./dataFooter.js";
 import { limparFormulario } from "./limparDados.js";
+import { limparCustosAdicionais } from "./custosAdicionais.js";
 
 //Variaveis que recebem os dois selects (origem,destino)
 const selectOrigem = document.querySelector('#selectOrigem');
@@ -26,6 +27,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
         e.preventDefault();
         limparFormulario('.dados-veiculo_form');
+        limparCustosAdicionais();
 
     });
 

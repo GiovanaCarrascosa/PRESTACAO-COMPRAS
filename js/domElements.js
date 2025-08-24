@@ -1,5 +1,6 @@
 import { coletarDados } from "./coletarDados.js";
 import { litrosNecessarios, custoTotal, totalViagem } from "./combCalculos.js";
+import { exibirCustosAdicionais } from "./custosAdicionais.js";
 
 // pegando os dados do html
 const selectOrigem = document.querySelector('#selectOrigem');
@@ -47,6 +48,8 @@ export function exibirContasVeiculos() {
                 const litros = litrosNecessarios(distancia, consumo);
                 const custo = custoTotal(distancia, consumo, preco);
                 const viagemTotal = totalViagem(custo, alimentacao, pedagio);
+
+                exibirCustosAdicionais(pedagio, alimentacao);
 
                 // exibe o resultado na tela
 
