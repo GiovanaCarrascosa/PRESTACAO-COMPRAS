@@ -1,0 +1,31 @@
+{
+  "name": "prestacao-compras",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanaCarrascosa/PRESTACAO-COMPRAS.git"
+  },
+  "author": "Eduarda, Gabriel, Giovana, Livia, Lucas, Maithe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiovanaCarrascosa/PRESTACAO-COMPRAS/issues"
+  },
+  "homepage": "https://github.com/GiovanaCarrascosa/PRESTACAO-COMPRAS#readme",
+  "description": "Planejador de viagens (prestação de contas deslocamento entre filiais)",
+  "keywords": [
+    "planejador",
+    "viagens",
+    "contas",
+    "prestação"
+  ],
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "react": "^19.1.1",
+    "react-router": "^7.8.2",
+    "react-smooth": "^4.0.4"
+  }
+}

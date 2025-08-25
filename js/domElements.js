@@ -61,7 +61,7 @@ export function exibirContasVeiculos() {
             // mensagens de erro
 
             else {
-                Swal.fire("Insira um valor maior que 0.");
+                Swal.fire("Selecione valores válidos, acima de 0, nas áreas de consumo, preço e velocidade.");
             }
         }
 
