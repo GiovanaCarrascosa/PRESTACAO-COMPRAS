@@ -37,7 +37,7 @@
     color: var(--white);
     font-family: var(--jaldi-font);
     font-size: var(--font-size-medium);
-    font-weight: bold;
+    font-weight: var(--font-weight);
 
     position: absolute;
     left: 50px;
@@ -68,7 +68,7 @@
     color: var(--white);
     font-family: var(--jaldi-font);
     font-size: var(--font-size-medium);
-    font-weight: bold;
+    font-weight: var(--font-weight);
 
     position: absolute;
     left: 50px;

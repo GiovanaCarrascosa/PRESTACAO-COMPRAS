@@ -62,5 +62,5 @@
     font-size: var(--font-size-smaller);
 
     margin-right: 50px;
-    font-weight: bold;
+    font-weight: var(--font-weight);
 }
