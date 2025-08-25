@@ -515,6 +515,13 @@ button:active{
     font-family: var(--jost-font);
 }
 
+.swal2-confirm{
+    background-color: var(--footer-and-btns);
+}
+
+.swal2-confirm:hover{
+    background-color: var(--main-title-and-hover-btns);
+}
 
 /* ESPAÇAMENTO ENTRE OS CONTAINERS */
 .dados-viagem,
