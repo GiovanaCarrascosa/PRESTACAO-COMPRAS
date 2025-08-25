@@ -28,13 +28,7 @@ export function atualizarSelectOrigem(){
     const select = document.querySelector('#selectOrigem');
 
     //Lista com as capitais dos estados do Brasil (possíveis origens)
-    const origens = [
-        "Aracaju", "Belém", "Belo Horizonte", "Boa Vista", "Brasília", "Campo Grande", 
-        "Curitiba", "Cuiabá", "Florianópolis", "Fortaleza", "Goiânia", "João Pessoa", "Macapá",
-        "Maceió", "Manaus", "Maceió", "Natal", "Palmas", "Porto Alegre", "Porto Velho", 
-        "Recife", "Rio Branco", "Rio de Janeiro", "São Luís", "São Paulo", "Salvador", 
-        "Teresina", "Vitória"
-    ];
+    const origens = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba", "Brasília", "Salvador", "Fortaleza", "Manaus"];
 
     origens.forEach((origem)=>{
         //Cria um option para cada origem da lista
