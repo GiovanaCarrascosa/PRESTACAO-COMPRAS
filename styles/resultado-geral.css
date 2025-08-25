@@ -1,0 +1,175 @@
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ULTIMO CONTAINER DE RESULTADOS*/
+/* container geral */
+.resultados_section{
+
+    width: 1000px;
+    height: 300px;
+    background-color: var(--container-results);
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 85px;
+   
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+/* titulo */
+.resultados_titulo{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-larger);
+
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+/* div do combustível */
+.resultados-combustivel_div{
+
+    width: 200px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resultados-combustivel_div:hover{
+
+    transform: scale(1.02);
+}
+
+.resultados-combustivel_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+.resultados-combustivel-litros_p, .resultados-combustivel-custo_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+/* div do tempo */
+.resultados-tempo-div{
+
+    width: 220px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resultados-tempo-div:hover{
+
+    transform: scale(1.02);
+}
+
+.resultados-tempo-viagem_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+.resultados-tempo-estimado_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+/* div do custos */
+.resultados-custos_div{
+
+    width: 220px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resultados-custos_div:hover{
+
+    transform: scale(1.02);
+}
+
+.resultados-custos_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+.resultados-custos-pedagios_p, .resultados-custos-alimentacao_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+/* div dos totais */
+.resultados-totais_div{
+
+    width: 220px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resultados-totais_div:hover{
+
+    transform: scale(1.02);
+}
+
+
+.resultados-custo-total_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+.resultados-custo-total-viagem_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
