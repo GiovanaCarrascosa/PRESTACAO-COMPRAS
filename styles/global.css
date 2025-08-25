@@ -1,0 +1,572 @@
+/* CONTAINER TODO */
+.main-container{
+
+    width: 100%;
+ 
+    padding-bottom: 70px;
+    align-content: center;
+    justify-items: center;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* HEADER */
+.header{
+
+    width: 100%;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header h1{
+
+    color: var(--main-title-and-hover-btns);
+    font-size: var(--font-size-larger);
+    color: var(--main-title);
+    font-family: var(--jost-font); 
+}
+
+.header h3{
+
+    font-size: var(--font-size-medium);
+    color: var(--black);
+    font-family: var(--jaldi-font);
+
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* CONTAINER DE INSERIR OS DADOS DA VIAGEM */
+.dados-viagem{
+
+    width: 1000px;
+    height: 350px;
+    background-color: var(--container-data);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.dados-viagem:hover{
+
+    transform: scale(1.02);
+}
+
+.dados-viagem_titulo{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-larger);
+
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+/* dados viagem origem */
+.dados-viagem-origem{
+
+    color: var(--white);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.dados-viagem-origem_select{
+
+    width: 900px;
+    height: 66px;
+
+    border-radius: 20px;
+    border: none;
+
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    padding: 15px;
+
+    color: var(--black);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-smaller);
+}
+
+/* dados viagem destino */
+.dados-viagem-destino{
+
+    color: var(--white);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+.dados-viagem-destino_select{
+
+    width: 900px;
+    height: 66px;
+
+    border-radius: 20px;
+    border: none;
+
+    position: absolute;
+    left: 50px;
+    top: 240px;
+    padding: 15px;
+
+    color: var(--black);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-smaller);
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* CONTAINER DA LISTA DOS DADOS DA VIAGEM */
+.lista-dados-viagem{
+
+    width: 1000px;
+    height: 300px;
+    background-color: var(--container-results);
+    border-radius: 20px;
+
+   
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.lista-dados-viagem:hover{
+
+    transform: scale(1.02);
+}
+
+.lista-dados-viagem__ul{
+
+    position: relative;
+    left: 50px;
+    top: 30px;
+
+    list-style: none;
+    color: var(--black);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-medium);
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* CONTAINER DE DADOS DO VEÍCULO */
+.dados-veiculo{
+
+    width: 1000px;
+    height: 520px;
+    background-color: var(--container-data);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.dados-veiculo:hover{
+
+    transform: scale(1.02);
+}
+
+.dados-veiculo-titulo{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-larger);
+
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.dados-veiculo-consumo_label{
+
+    color: var(--white);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+
+    position: absolute;
+    left: 50px;
+    top: 80px;
+
+}
+
+.dados-veiculo-consumo_input{
+
+    width: 900px;
+    height: 66px;
+
+    border-radius: 20px;
+    border: none;
+
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    padding: 15px;
+
+    color: var(--black);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-smaller);
+}
+
+.dados-veiculo-combustivel_label{
+
+    color: var(--white);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+.dados-veiculo-combustivel_input{
+
+    width: 900px;
+    height: 66px;
+
+    border-radius: 20px;
+    border: none;
+
+    position: absolute;
+    left: 50px;
+    top: 240px;
+    padding: 15px;
+
+    color: var(--black);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-smaller);
+}
+
+.dados-veiculo-velocidade_label{
+
+    color: var(--white);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+
+    position: absolute;
+    left: 50px;
+    top: 320px;
+}
+
+.dados-veiculo-velocidade_input{
+
+    width: 900px;
+    height: 66px;
+
+    border-radius: 20px;
+    border: none;
+
+    position: absolute;
+    left: 50px;
+    top: 360px;
+    padding: 15px;
+
+    color: var(--black);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-smaller);
+}
+
+.buttons {
+
+    display: flex;
+    justify-content: space-around;
+    
+    position: relative;
+    top: 450px;
+
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover{
+
+    background-color: var(--main-title-and-hover-btns);
+}
+
+button:active{
+
+    transform: scale(0.97);
+}
+
+/* botoes */
+.btn-calcular, .btn-limpar{
+
+    width: 200px;
+    height: 50px;
+
+    background-color: var(--footer-and-btns);
+    color: var(--white);
+    border: none;
+    border-radius: 20px;
+
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ULTIMO CONTAINER DE RESULTADOS*/
+/* container geral */
+.resultados_section{
+
+    width: 1000px;
+    height: 300px;
+    background-color: var(--container-results);
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 85px;
+   
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+/* titulo */
+.resultados_titulo{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-larger);
+
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+/* div do combustível */
+.resultados-combustivel_div{
+
+    width: 200px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resultados-combustivel_div:hover{
+
+    transform: scale(1.02);
+}
+
+.resultados-combustivel_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+.resultados-combustivel-litros_p, .resultados-combustivel-custo_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+/* div do tempo */
+.resultados-tempo-div{
+
+    width: 220px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resultados-tempo-div:hover{
+
+    transform: scale(1.02);
+}
+
+.resultados-tempo-viagem_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+.resultados-tempo-estimado_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+/* div do custos */
+.resultados-custos_div{
+
+    width: 220px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resultados-custos_div:hover{
+
+    transform: scale(1.02);
+}
+
+.resultados-custos_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+.resultados-custos-pedagios_p, .resultados-custos-alimentacao_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+/* div dos totais */
+.resultados-totais_div{
+
+    width: 220px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resultados-totais_div:hover{
+
+    transform: scale(1.02);
+}
+
+
+.resultados-custo-total_h3{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+.resultados-custo-total-viagem_p{
+
+    color: var(--black);
+    font-family: var(--jost-font);
+    font-size: var(--font-size-smaller);
+
+    padding-bottom: 10px;
+}
+
+/* aplicando fonte no sweet alert */
+
+.swal2-popup{
+    font-family: var(--jost-font);
+}
+
+.swal2-confirm{
+    background-color: var(--footer-and-btns);
+}
+
+.swal2-confirm:hover{
+    background-color: var(--main-title-and-hover-btns);
+}
+
+/* ESPAÇAMENTO ENTRE OS CONTAINERS */
+.dados-viagem,
+.dados-veiculo,
+.resultados_section,
+.lista-dados-viagem {
+    margin-bottom: 20px; /* Adiciona uma margem de 20px na parte inferior de cada container */
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* FOOTER */
+.footer{
+
+    width: 100%;
+    height: 50px;
+    background-color: var(--footer-and-btns);
+
+    bottom: 0;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer, span{
+
+    align-content: center;
+}
+
+.nomes-footer{
+
+    color: var(--white);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-smaller);
+
+    margin-left: 50px;  
+}
+
+.data-footer{
+
+    color: var(--white);
+    font-family: var(--jaldi-font);
+    font-size: var(--font-size-smaller);
+
+    margin-right: 50px;
+    font-weight: bold;
+}
