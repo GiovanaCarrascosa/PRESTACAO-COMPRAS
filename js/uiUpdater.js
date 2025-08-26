@@ -12,12 +12,12 @@ export function atualizarListaViagem(origem,destino){
 
     //Muda o HTML usando um template de string para preencher automaticamente
     elemLista.innerHTML = `
-    <li>Distância: ${rota.distancia} km;</li>
-    <li>Pedágios: ${rota.pedagios} praças;</li>
-    <li>Valor total pedágios: R$ ${rota.valorPedagios};</li>
-    <li>Restaurantes: ${rota.restaurantes};</li>
-    <li>Tempo estimado: ${Math.floor(rota.tempoEstimado)}h ${Math.round((rota.tempoEstimado-Math.floor(rota.tempoEstimado))*60)}min;</li>
-    <li>Pontos turísticos: ${rota.pontosTuristicos.join(", ")}.</li>`;
+    <li class="lista-dados-viagem__li"> Distância: ${rota.distancia} km;</li>
+    <li class="lista-dados-viagem__li"> Pedágios: ${rota.pedagios} praças;</li>
+    <li class="lista-dados-viagem__li"> Valor total pedágios: R$ ${rota.valorPedagios};</li>
+    <li class="lista-dados-viagem__li"> Restaurantes: ${rota.restaurantes};</li>
+    <li class="lista-dados-viagem__li"> Tempo estimado: ${Math.floor(rota.tempoEstimado)}h ${Math.round((rota.tempoEstimado-Math.floor(rota.tempoEstimado))*60)}min;</li>
+    <li class="lista-dados-viagem__li"> Pontos turísticos: ${rota.pontosTuristicos.join(", ")}.</li>`;
 
 }
 
