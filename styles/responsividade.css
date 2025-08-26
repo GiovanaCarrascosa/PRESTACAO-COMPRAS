@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+    .dados-viagem{
+        width: 550px;
+        height: 350px;
+    }
+    .dados-viagem-origem_select{
+        width: 450px;
+        height: 66px;
+    }
+    .dados-viagem-destino_select{
+        width: 450px;
+        height: 66px;
+    }
+    .lista-dados-viagem{
+        width: 550px;
+        height: 300px;
+    }
+    .dados-veiculo{
+        width: 550px;
+        height: 520px;
+    }
+    .dados-veiculo-consumo_input{
+        width: 450px;
+        height: 66px;
+    }
+    .dados-veiculo-combustivel_input{
+        width: 450px;
+        height: 66px;
+    }
+    .dados-veiculo-velocidade_input{
+        width: 450px;
+        height: 66px;
+    }
+    .resultados_section{
+        width: 550px;
+        height: 300px;
+    }
+    .resultados-combustivel_div{
+
+        width: 100px;
+        height: 180px;
+    }
+}
+
+
+@media (max-width: 200px) {
+    
+  }
