@@ -1,3 +1,160 @@
+@media (max-width: 834px) {
+    .dados-viagem{
+        width: 730px;
+        height: 350px;
+    }
+    .dados-viagem-origem_select{
+        width: 630px;
+        height: 66px;
+    }
+    .dados-viagem-destino_select{
+        width: 630px;
+        height: 66px;
+    }
+    .lista-dados-viagem{
+        width: 730px;
+        height: 400px;
+    }
+    .lista-dados-viagem__li{
+        font-size: var(--font-size-medium);
+        margin-bottom: 20px;
+        width: 250px;
+    }
+    .dados-veiculo{
+        width: 730px;
+        height: 520px;
+    }
+    .dados-veiculo-consumo_input{
+        width: 630px;
+        height: 66px;
+    }
+    .dados-veiculo-combustivel_input{
+        width: 630px;
+        height: 66px;
+    }
+    .dados-veiculo-velocidade_input{
+        width: 630px;
+        height: 66px;
+    }
+    .resultados_section{
+        width: 730px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .resultados-combustivel_div{
+        width: 630px;
+        height: 180px;
+    }
+    .resultados-tempo-div{
+        width: 630px;
+        height: 180px;
+    }
+    .resultados-custos_div{
+        width: 630px;
+        height: 180px;
+    }
+    .resultados-totais_div{
+        width: 630px;
+        height: 180px;
+    }
+    .footer{
+        height: 90px;
+    }
+    .nomes-footer{
+        font-size: var(--font-size-smaller);
+        margin-left: 20px;
+    }
+    .btn-calcular{
+        width: 150px;
+        height: 50px;
+    }
+    .btn-limpar{
+        width: 150px;
+        height: 50px;
+    }
+    
+  }
+
+@media (max-width: 600px){
+    .dados-viagem{
+        width: 530px;
+        height: 350px;
+    }
+    .dados-viagem-origem_select{
+        width: 430px;
+        height: 66px;
+    }
+    .dados-viagem-destino_select{
+        width: 430px;
+        height: 66px;
+    }
+    .lista-dados-viagem{
+        width: 530px;
+        height: 400px;
+    }
+    .lista-dados-viagem__li{
+        font-size: var(--font-size-medium);
+        margin-bottom: 20px;
+        width: 250px;
+    }
+    .dados-veiculo{
+        width: 530px;
+        height: 520px;
+    }
+    .dados-veiculo-consumo_input{
+        width: 430px;
+        height: 66px;
+    }
+    .dados-veiculo-combustivel_input{
+        width: 430px;
+        height: 66px;
+    }
+    .dados-veiculo-velocidade_input{
+        width: 430px;
+        height: 66px;
+    }
+    .resultados_section{
+        width: 530px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .resultados-combustivel_div{
+        width: 430px;
+        height: 180px;
+    }
+    .resultados-tempo-div{
+        width: 430px;
+        height: 180px;
+    }
+    .resultados-custos_div{
+        width: 430px;
+        height: 180px;
+    }
+    .resultados-totais_div{
+        width: 430px;
+        height: 180px;
+    }
+    .footer{
+        height: 90px;
+    }
+    .nomes-footer{
+        font-size: var(--font-size-smaller);
+        margin-left: 20px;
+    }
+    .btn-calcular{
+        width: 150px;
+        height: 50px;
+    }
+    .btn-limpar{
+        width: 150px;
+        height: 50px;
+    }
+}
+
 @media (max-width: 375px) {
     .dados-viagem{
         width: 350px;
@@ -78,82 +235,3 @@
 
 }
 
-
-@media (max-width: 834px) {
-    .dados-viagem{
-        width: 730px;
-        height: 350px;
-    }
-    .dados-viagem-origem_select{
-        width: 630px;
-        height: 66px;
-    }
-    .dados-viagem-destino_select{
-        width: 630px;
-        height: 66px;
-    }
-    .lista-dados-viagem{
-        width: 730px;
-        height: 400px;
-    }
-    .lista-dados-viagem__li{
-        font-size: var(--font-size-medium);
-        margin-bottom: 20px;
-        width: 250px;
-    }
-    .dados-veiculo{
-        width: 730px;
-        height: 520px;
-    }
-    .dados-veiculo-consumo_input{
-        width: 630px;
-        height: 66px;
-    }
-    .dados-veiculo-combustivel_input{
-        width: 630px;
-        height: 66px;
-    }
-    .dados-veiculo-velocidade_input{
-        width: 630px;
-        height: 66px;
-    }
-    .resultados_section{
-        width: 730px;
-        height: 800px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .resultados-combustivel_div{
-        width: 630px;
-        height: 180px;
-    }
-    .resultados-tempo-div{
-        width: 630px;
-        height: 180px;
-    }
-    .resultados-custos_div{
-        width: 630px;
-        height: 180px;
-    }
-    .resultados-totais_div{
-        width: 630px;
-        height: 180px;
-    }
-    .footer{
-        height: 90px;
-    }
-    .nomes-footer{
-        font-size: var(--font-size-smaller);
-        margin-left: 20px;
-    }
-    .btn-calcular{
-        width: 150px;
-        height: 50px;
-    }
-    .btn-limpar{
-        width: 150px;
-        height: 50px;
-    }
-    
-  }
